@@ -1,0 +1,9 @@
+# kube-vip LoadBalancer address pool.
+# Keeps Service VIPs off 192.168.102.250, which the control plane uses.
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kubevip
+  namespace: kube-system
+data:
+  range-global: 192.168.102.240-192.168.102.245
