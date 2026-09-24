@@ -1,0 +1,3 @@
+# Installed with chart defaults; no values overridden.
+# Verify against the live release with:
+#   helm -n kube-system get values my-headlamp

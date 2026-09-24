@@ -1,0 +1,11 @@
+# Never commit cluster credentials
+*.key
+*.crt
+*.pem
+*.p12
+admin.conf
+super-admin.conf
+kubeconfig*
+.kube/
+*secret*.yaml
+*.env
