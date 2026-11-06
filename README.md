@@ -24,3 +24,7 @@ Kubernetes HA homelab on VMware vSphere. Manifests and notes used to build it.
 ## Notes
 
 - [Control-plane failover test](docs/failover-test.md) - ~5s API downtime on leader loss
+
+## Project roadmap
+
+- [DevOps Portfolio Roadmap](docs/DEVOPS_PORTFOLIO_ROADMAP.md) - Telegram-bot delivery stages, learning goals and project progress.
